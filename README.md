@@ -12,15 +12,18 @@ To minimize problems, I've created an SHELL Script to handle removal of Chromium
 
 To use the pisetup.sh file, go to the Command Line and type the following:
 ```
-wget https://raw.githubusercontent.com/TechWizTime/chromium-browser/master/pisetup.sh
+wget https://raw.githubusercontent.com/TechWizTime/chromium-browser/master/installer.sh
 ```
 ```
-sudo chmod +x pisetup.sh
+sudo chmod +x installer.sh
 ```
 Then run the script:
 ```
-sudo ./pisetup.sh
+sudo ./installer.sh
 ```
+
+## CREDITS
+https://github.com/kusti8/chromium-build
 
 ## Other Information
 If you have a problem with this script, please let me know by submitting an Issue.
