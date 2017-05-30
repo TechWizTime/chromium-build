@@ -15,6 +15,7 @@ echo -e "PHASE ONE: Remove all traces of Chromium Browser"
 echo -e "************************************************\n"
 sudo apt-get purge chromium-browser -y
 sudo apt-get autoremove -y
+rm .config/chromium-browser -rf
 echo -e "\nDONE!!\n"
 
 echo -e "\n**********************************************"
