@@ -6,7 +6,7 @@ Usage: ./build-deb.sh deb_name version
 e.g.: build-deb.sh chromium-browser_51.0.2704.91-0ubuntu0.14.04.1.7000 51.0.2704.91-0ubuntu0.14.04.1.7000
 ```
 
-## How to use pisetup.sh
+## How to use installer.sh on Raspberry Pi inside Raspbian Pixel
 
 To minimize problems, I've created an SHELL Script to handle removal of Chromium Browser, Installing of KUSTI8 precompiled DEB file and CLEANUP.
 
